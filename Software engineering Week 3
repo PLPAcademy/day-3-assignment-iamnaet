@@ -1,0 +1,38 @@
+Dart Installation:
+
+A) Download the Dart SDK: This is the first step in installing Dart on Windows. You'll get the official installer from the Dart website.
+D) dart --version: This command verifies the Dart installation on macOS by showing the installed version.
+Flutter Installation (Linux):
+
+C) Run Flutter Doctor: After downloading and extracting the Flutter SDK, run this command to check for any missing dependencies or issues before creating projects.
+Flutter App Execution:
+
+C) flutter run: This command starts a newly created Flutter app on a connected device or emulator.
+Python Installation (Windows):
+
+B) Download Python from the official website: Get the installer from the official Python website for a clean installation.
+C) Add Python to PATH: This option ensures you can run Python commands from anywhere in your terminal. Deselect "Install with default settings" and check the "Add Python to PATH" box.
+Verifying Python Installation:
+
+A) By running python --version: This simple command displays the installed Python version.
+Installing pip (macOS/Linux):
+
+C) curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py: This command downloads the get-pip.py script and uses Python to install pip.
+Purpose of Virtual Environments (Python):
+
+C) To separate project dependencies and avoid conflicts: Virtual environments isolate project-specific dependencies and packages, preventing conflicts with other projects.
+MySQL Installation (Windows):
+
+B) Download MySQL Installer from the official website: Get the installer from the official MySQL website for a straightforward setup.
+MySQL Setup Type:
+
+D) Custom: This allows you to choose specific components you need instead of a pre-configured package.
+MySQL Products to Select:
+
+B) Only MySQL Server: The server is the core of MySQL and handles database operations. Additional tools like Workbench can be installed separately.
+Purpose of Root Password:
+
+B) To secure your MySQL installation with a super-secret password: The root user has full access to the MySQL server, and a strong password is essential for security.
+Starting MySQL Management:
+
+B) Launch MySQL Workbench and connect to your MySQL Server: MySQL Workbench is a graphical interface for managing your MySQL server and interacting with databases.
